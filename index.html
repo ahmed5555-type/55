@@ -1,0 +1,1999 @@
+<!DOCTYPE html>
+<!-- saved from url=(0174)file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html -->
+<html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALGIAR | منصة تعليم المحاسبة الرقمية</title>
+    <link rel="stylesheet" href="./ALGIAR _ منصة تعليم المحاسبة الرقمية_files/all.min.css">
+    <link href="./ALGIAR _ منصة تعليم المحاسبة الرقمية_files/css2" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-light: #3b82f6;
+            --primary-dark: #1d4ed8;
+            --secondary: #0ea5e9;
+            --accent: #8b5cf6;
+            --accent-2: #10b981;
+            --accent-3: #f59e0b;
+            --accent-4: #ef4444;
+            --accent-5: #ec4899;
+            --dark: #1e293b;
+            --dark-gray: #334155;
+            --gray: #64748b;
+            --light-gray: #e2e8f0;
+            --light: #f8fafc;
+            --white: #ffffff;
+            --gradient-primary: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+            --gradient-accent: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
+            --gradient-success: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            --gradient-warning: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            --gradient-danger: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+            --gradient-pink: linear-gradient(135deg, #ec4899 0%, #db2777 100%);
+            --gradient-purple: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            --gradient-dark: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.15);
+            --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.2);
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --radius-xl: 32px;
+            --radius-full: 9999px;
+            --transition-fast: 0.2s ease;
+            --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Almarai', sans-serif;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        button {
+            cursor: pointer;
+            border: none;
+            font-family: inherit;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+        /* تصميم Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            transition: var(--transition-normal);
+        }
+
+        .navbar.scrolled {
+            padding: 12px 0;
+            box-shadow: var(--shadow-md);
+        }
+
+        .navbar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--gradient-primary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 20px;
+            transition: var(--transition-normal);
+        }
+
+        .logo:hover .logo-icon {
+            transform: rotate(15deg) scale(1.1);
+        }
+
+        .logo-text {
+            font-size: 28px;
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 32px;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--dark-gray);
+            padding: 8px 0;
+            transition: var(--transition-fast);
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: var(--primary);
+        }
+
+        .nav-link.active {
+            color: var(--primary);
+        }
+
+        .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            right: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-full);
+        }
+
+        .btn {
+            padding: 12px 28px;
+            border-radius: var(--radius-full);
+            font-weight: 600;
+            font-size: 15px;
+            transition: var(--transition-normal);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: var(--white);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-sm {
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+
+        .btn-lg {
+            padding: 16px 32px;
+            font-size: 16px;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--dark);
+        }
+
+        /* Hero Section */
+        .hero-section {
+            padding-top: 140px;
+            padding-bottom: 80px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #f0f9ff 0%, #e6f7ff 100%);
+        }
+
+        .hero-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+
+        .hero-content h1 span {
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            color: var(--gray);
+            margin-bottom: 32px;
+            line-height: 1.8;
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 32px;
+            margin-top: 40px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 800;
+            color: var(--primary);
+            display: block;
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--gray);
+            margin-top: 4px;
+        }
+
+        .hero-visual {
+            position: relative;
+        }
+
+        .hero-card {
+            background: var(--white);
+            border-radius: var(--radius-xl);
+            padding: 32px;
+            box-shadow: var(--shadow-xl);
+            position: relative;
+            z-index: 2;
+            transform: rotate(-2deg);
+            transition: var(--transition-normal);
+        }
+
+        .hero-card:hover {
+            transform: rotate(0deg) scale(1.02);
+        }
+
+        .hero-card::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-accent);
+            border-radius: var(--radius-xl);
+            z-index: -1;
+            opacity: 0.1;
+        }
+
+        /* Subjects Grid */
+        .subjects-section {
+            background: var(--white);
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 40px;
+            color: var(--dark);
+            margin-bottom: 16px;
+        }
+
+        .section-header p {
+            font-size: 18px;
+            color: var(--gray);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .subjects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .subject-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition-normal);
+            position: relative;
+            cursor: pointer;
+        }
+
+        .subject-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .subject-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient-primary);
+        }
+
+        .subject-header {
+            padding: 32px 32px 0;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .subject-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(14, 165, 233, 0.1) 100%);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 28px;
+            transition: var(--transition-normal);
+        }
+
+        .subject-card:hover .subject-icon {
+            transform: scale(1.1);
+            background: var(--gradient-primary);
+            color: var(--white);
+        }
+
+        .subject-title {
+            font-size: 24px;
+            color: var(--dark);
+            margin-bottom: 4px;
+        }
+
+        .subject-count {
+            font-size: 14px;
+            color: var(--gray);
+        }
+
+        .subject-body {
+            padding: 0 32px 32px;
+        }
+
+        .subject-description {
+            color: var(--gray);
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+
+        .progress-container {
+            margin-bottom: 20px;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .progress-label {
+            font-size: 14px;
+            color: var(--gray);
+        }
+
+        .progress-value {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: var(--light-gray);
+            border-radius: var(--radius-full);
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-full);
+            width: 0;
+            transition: width 0.8s ease;
+        }
+
+        .subject-footer {
+            padding: 20px 32px;
+            background: rgba(37, 99, 235, 0.02);
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* واجهة المادة الواحدة */
+        .subject-page {
+            display: none;
+            min-height: 100vh;
+            padding-top: 100px;
+            background: var(--light);
+        }
+
+        .subject-page.active {
+            display: block;
+        }
+
+        .subject-page-header {
+            background: var(--gradient-primary);
+            color: var(--white);
+            padding: 60px 0;
+            margin-bottom: 40px;
+        }
+
+        .page-header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .subject-page-info {
+            flex: 1;
+        }
+
+        .subject-page-title {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        .subject-page-description {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 800px;
+        }
+
+        .subject-page-stats {
+            display: flex;
+            gap: 32px;
+        }
+
+        .page-stat-item {
+            text-align: center;
+        }
+
+        .page-stat-number {
+            font-size: 32px;
+            font-weight: 800;
+            display: block;
+            line-height: 1;
+        }
+
+        .page-stat-label {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-top: 4px;
+        }
+
+        .back-button {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: var(--white);
+            padding: 12px 24px;
+            border-radius: var(--radius-full);
+            font-size: 16px;
+            cursor: pointer;
+            transition: var(--transition-normal);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 30px;
+        }
+
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateX(-5px);
+        }
+
+        /* فيديوهات المادة */
+        .videos-section {
+            margin-top: 40px;
+            padding-bottom: 80px;
+        }
+
+        .videos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .video-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition-normal);
+        }
+
+        .video-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .video-thumbnail {
+            position: relative;
+            height: 180px;
+            overflow: hidden;
+        }
+
+        .video-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-normal);
+        }
+
+        .video-card:hover .video-thumbnail img {
+            transform: scale(1.05);
+        }
+
+        .video-play-btn {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 20px;
+            opacity: 0;
+            transition: var(--transition-normal);
+            cursor: pointer;
+        }
+
+        .video-card:hover .video-play-btn {
+            opacity: 1;
+            transform: translate(50%, -50%) scale(1.1);
+        }
+
+        .video-content {
+            padding: 24px;
+        }
+
+        .video-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .video-number {
+            width: 32px;
+            height: 32px;
+            background: var(--gradient-primary);
+            color: var(--white);
+            border-radius: var(--radius-full);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .video-duration {
+            font-size: 14px;
+            color: var(--gray);
+            background: var(--light-gray);
+            padding: 4px 12px;
+            border-radius: var(--radius-full);
+        }
+
+        .video-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .video-description {
+            font-size: 14px;
+            color: var(--gray);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .youtube-button {
+            background: #FF0000;
+            color: var(--white);
+            border: none;
+            padding: 12px 24px;
+            border-radius: var(--radius-full);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-normal);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .youtube-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            background: #CC0000;
+        }
+
+        .mark-completed-btn {
+            background: var(--gradient-primary);
+            color: var(--white);
+            border: none;
+            padding: 12px 24px;
+            border-radius: var(--radius-full);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-normal);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+        }
+
+        .mark-completed-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .mark-completed-btn.completed {
+            background: var(--gradient-success);
+        }
+
+        /* شريط التقدم الكلي */
+        .overall-progress {
+            background: var(--white);
+            padding: 30px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            margin-bottom: 40px;
+        }
+
+        .progress-summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .progress-summary h3 {
+            font-size: 20px;
+            color: var(--dark);
+        }
+
+        .overall-progress-bar {
+            height: 12px;
+            background: var(--light-gray);
+            border-radius: var(--radius-full);
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .overall-progress-fill {
+            height: 100%;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-full);
+            width: 0;
+            transition: width 1.5s ease;
+        }
+
+        .progress-details {
+            display: flex;
+            justify-content: space-between;
+            color: var(--gray);
+            font-size: 14px;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--gradient-dark);
+            color: var(--white);
+            padding: 80px 0 40px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .footer-col h3 {
+            font-size: 20px;
+            margin-bottom: 24px;
+            color: var(--white);
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            transition: var(--transition-fast);
+            cursor: pointer;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+            padding-right: 8px;
+        }
+
+        .footer-info p {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            transition: var(--transition-normal);
+        }
+
+        .social-link:hover {
+            background: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        .footer-bottom {
+            padding-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyright {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        .footer-logo {
+            font-size: 24px;
+            font-weight: 800;
+        }
+
+        /* Modal للنافذة المنبثقة لتأكيد المشاهدة */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            width: 90%;
+            max-width: 500px;
+            max-height: 90vh;
+            overflow: hidden;
+            animation: slideUp 0.4s ease;
+        }
+
+        .modal-header {
+            padding: 20px 32px;
+            background: var(--gradient-primary);
+            color: var(--white);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 24px;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-fast);
+        }
+
+        .modal-close:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .modal-body {
+            padding: 32px;
+            text-align: center;
+        }
+
+        .modal-icon {
+            font-size: 60px;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .modal-message {
+            font-size: 18px;
+            color: var(--dark);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        /* تأثيرات */
+        .floating-element {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(14, 165, 233, 0.05) 100%);
+            animation: float 20s infinite ease-in-out;
+            z-index: 0;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            33% { transform: translateY(-20px) rotate(120deg); }
+            66% { transform: translateY(20px) rotate(240deg); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes slideInLeft {
+            from { transform: translateX(-100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        @keyframes slideOutLeft {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(-100%); opacity: 0; }
+        }
+
+        .loading {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* تصميم متجاوب */
+        @media (max-width: 1024px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .page-header-content {
+                flex-direction: column;
+                gap: 30px;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .hero-content h1 {
+                font-size: 36px;
+            }
+            
+            .section-header h2 {
+                font-size: 32px;
+            }
+            
+            .subject-page-title {
+                font-size: 36px;
+            }
+            
+            .videos-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero-content h1 {
+                font-size: 28px;
+            }
+            
+            .section {
+                padding: 60px 0;
+            }
+            
+            .btn {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+            
+            .subject-page-stats {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+            
+            .modal-content {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="logo" id="mainLogo">
+                <div class="logo-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <span class="logo-text">ALGIAR</span>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" class="nav-link active" data-page="home">الرئيسية</a></li>
+                <li class="nav-item"><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" class="nav-link" data-page="subjects">المواد الدراسية</a></li>
+                <li class="nav-item"><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" class="nav-link" data-page="about">عن المنصة</a></li>
+                <li class="nav-item"><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" class="nav-link" data-page="contact">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- الصفحة الرئيسية -->
+    <div id="mainContent">
+        <!-- Home Page -->
+        <section id="homePage" class="hero-section section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>منصة <span>ALGIAR</span> التعليمية<br>لتعليم المحاسبة الحديثة</h1>
+                    <p>منصة تعليمية متكاملة تقدم محتوى محاسبي عالي الجودة لطلبة الجامعات والمحترفين. تعلم بأسلوب عصري مع فيديوهات تفاعلية وتمارين عملية.</p>
+                    
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-lg" id="startLearningBtn">
+                            <i class="fas fa-play-circle"></i>
+                            ابدأ التعلم الآن
+                        </button>
+                        <button class="btn btn-primary" id="browseSubjectsBtn">
+                            <i class="fas fa-book"></i>
+                            تصفح المواد
+                        </button>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">7</span>
+                            <span class="stat-label">مواد دراسية</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">28</span>
+                            <span class="stat-label">فيديو تعليمي</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="completedVideosHero">0</span>
+                            <span class="stat-label">فيديو مكتمل</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <h3>المحاسبة المالية المتقدمة</h3>
+                        <p>دورة شاملة تغطي كافة أساسيات المحاسبة المالية مع أمثلة عملية</p>
+                        <div class="progress-container">
+                            <div class="progress-info">
+                                <span class="progress-label">التقدم</span>
+                                <span class="progress-value" id="heroProgressValue">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="heroProgressFill" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subjects Grid Section -->
+        <section id="subjectsPage" class="subjects-section section" style="display: none;">
+            <div class="container">
+                <button class="back-button" id="backToHomeFromSubjects">
+                    <i class="fas fa-arrow-right"></i>
+                    العودة للرئيسية
+                </button>
+
+                <div class="section-header">
+                    <h2>المواد الدراسية</h2>
+                    <p>اختر المادة التي تريد دراستها وانضم إلى آلاف الطلاب الناجحين</p>
+                </div>
+
+                <div class="overall-progress">
+                    <div class="progress-summary">
+                        <h3>تقدمك العام</h3>
+                        <span id="overallProgressValue">0%</span>
+                    </div>
+                    <div class="overall-progress-bar">
+                        <div class="overall-progress-fill" id="overallProgressBar" style="width: 0%;"></div>
+                    </div>
+                    <div class="progress-details">
+                        <span id="completedVideos">0</span>
+                        <span id="totalVideos">28</span>
+                    </div>
+                </div>
+
+                <div class="subjects-grid" id="subjectsGrid"><div class="subject-card" data-subject="financial-accounting">
+                    <div class="subject-header">
+                        <div class="subject-icon" style="background: linear-gradient(135deg, #2563eb20, #2563eb10); color: #2563eb">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div>
+                            <h3 class="subject-title">المحاسبة المالية</h3>
+                            <div class="subject-count">4 فيديوهات • 8 ساعة</div>
+                        </div>
+                    </div>
+                    <div class="subject-body">
+                        <p class="subject-description">تعلم أساسيات القوائم المالية والميزانيات وقوائم الدخل. فهم كيفية تتبع الشركات لأدائها المالي.</p>
+                        <div class="progress-container">
+                            <div class="progress-info">
+                                <span class="progress-label">التقدم</span>
+                                <span class="progress-value">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%; background: var(--gradient-primary);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subject-footer">
+                        <div style="display: flex; align-items: center; gap: 8px; color: var(--gray); font-size: 14px;">
+                            <i class="fas fa-play-circle"></i>
+                            0/4 مكتمل
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-subject="financial-accounting">
+                            عرض المادة
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div><div class="subject-card" data-subject="managerial-accounting">
+                    <div class="subject-header">
+                        <div class="subject-icon" style="background: linear-gradient(135deg, #0ea5e920, #0ea5e910); color: #0ea5e9">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div>
+                            <h3 class="subject-title">المحاسبة الإدارية</h3>
+                            <div class="subject-count">4 فيديوهات • 8 ساعة</div>
+                        </div>
+                    </div>
+                    <div class="subject-body">
+                        <p class="subject-description">استكشف تحليل التكاليف والموازنة وعمليات صنع القرار.</p>
+                        <div class="progress-container">
+                            <div class="progress-info">
+                                <span class="progress-label">التقدم</span>
+                                <span class="progress-value">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%; background: var(--gradient-primary);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subject-footer">
+                        <div style="display: flex; align-items: center; gap: 8px; color: var(--gray); font-size: 14px;">
+                            <i class="fas fa-play-circle"></i>
+                            0/4 مكتمل
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-subject="managerial-accounting">
+                            عرض المادة
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div><div class="subject-card" data-subject="auditing">
+                    <div class="subject-header">
+                        <div class="subject-icon" style="background: linear-gradient(135deg, #8b5cf620, #8b5cf610); color: #8b5cf6">
+                            <i class="fas fa-search-dollar"></i>
+                        </div>
+                        <div>
+                            <h3 class="subject-title">تدقيق الحسابات</h3>
+                            <div class="subject-count">4 فيديوهات • 8 ساعة</div>
+                        </div>
+                    </div>
+                    <div class="subject-body">
+                        <p class="subject-description">فهم مبادئ وممارسات فحص السجلات المالية.</p>
+                        <div class="progress-container">
+                            <div class="progress-info">
+                                <span class="progress-label">التقدم</span>
+                                <span class="progress-value">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%; background: var(--gradient-accent);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subject-footer">
+                        <div style="display: flex; align-items: center; gap: 8px; color: var(--gray); font-size: 14px;">
+                            <i class="fas fa-play-circle"></i>
+                            0/4 مكتمل
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-subject="auditing">
+                            عرض المادة
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div><div class="subject-card" data-subject="taxation">
+                    <div class="subject-header">
+                        <div class="subject-icon" style="background: linear-gradient(135deg, #10b98120, #10b98110); color: #10b981">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <div>
+                            <h3 class="subject-title">الضرائب</h3>
+                            <div class="subject-count">4 فيديوهات • 8 ساعة</div>
+                        </div>
+                    </div>
+                    <div class="subject-body">
+                        <p class="subject-description">تعرف على قوانين الضرائب واستراتيجيات التخطيط.</p>
+                        <div class="progress-container">
+                            <div class="progress-info">
+                                <span class="progress-label">التقدم</span>
+                                <span class="progress-value">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%; background: var(--gradient-success);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subject-footer">
+                        <div style="display: flex; align-items: center; gap: 8px; color: var(--gray); font-size: 14px;">
+                            <i class="fas fa-play-circle"></i>
+                            0/4 مكتمل
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-subject="taxation">
+                            عرض المادة
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div><div class="subject-card" data-subject="cost-accounting">
+                    <div class="subject-header">
+                        <div class="subject-icon" style="background: linear-gradient(135deg, #f59e0b20, #f59e0b10); color: #f59e0b">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div>
+                            <h3 class="subject-title">محاسبة التكاليف</h3>
+                            <div class="subject-count">4 فيديوهات • 8 ساعة</div>
+                        </div>
+                    </div>
+                    <div class="subject-body">
+                        <p class="subject-description">تعمق في الأساليب الخاصة بتسجيل وتحليل التكاليف.</p>
+                        <div class="progress-container">
+                            <div class="progress-info">
+                                <span class="progress-label">التقدم</span>
+                                <span class="progress-value">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%; background: var(--gradient-warning);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subject-footer">
+                        <div style="display: flex; align-items: center; gap: 8px; color: var(--gray); font-size: 14px;">
+                            <i class="fas fa-play-circle"></i>
+                            0/4 مكتمل
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-subject="cost-accounting">
+                            عرض المادة
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div><div class="subject-card" data-subject="accounting-systems">
+                    <div class="subject-header">
+                        <div class="subject-icon" style="background: linear-gradient(135deg, #ef444420, #ef444410); color: #ef4444">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div>
+                            <h3 class="subject-title">نظم المعلومات المحاسبية</h3>
+                            <div class="subject-count">4 فيديوهات • 8 ساعة</div>
+                        </div>
+                    </div>
+                    <div class="subject-body">
+                        <p class="subject-description">استكشف كيفية استخدام التكنولوجيا لجمع وتخزين البيانات المالية.</p>
+                        <div class="progress-container">
+                            <div class="progress-info">
+                                <span class="progress-label">التقدم</span>
+                                <span class="progress-value">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%; background: var(--gradient-danger);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subject-footer">
+                        <div style="display: flex; align-items: center; gap: 8px; color: var(--gray); font-size: 14px;">
+                            <i class="fas fa-play-circle"></i>
+                            0/4 مكتمل
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-subject="accounting-systems">
+                            عرض المادة
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div><div class="subject-card" data-subject="international-accounting">
+                    <div class="subject-header">
+                        <div class="subject-icon" style="background: linear-gradient(135deg, #ec489920, #ec489910); color: #ec4899">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div>
+                            <h3 class="subject-title">المحاسبة الدولية</h3>
+                            <div class="subject-count">4 فيديوهات • 8 ساعة</div>
+                        </div>
+                    </div>
+                    <div class="subject-body">
+                        <p class="subject-description">دراسة المعايير الدولية لإعداد التقارير المالية (IFRS).</p>
+                        <div class="progress-container">
+                            <div class="progress-info">
+                                <span class="progress-label">التقدم</span>
+                                <span class="progress-value">0%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 0%; background: var(--gradient-pink);"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subject-footer">
+                        <div style="display: flex; align-items: center; gap: 8px; color: var(--gray); font-size: 14px;">
+                            <i class="fas fa-play-circle"></i>
+                            0/4 مكتمل
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-subject="international-accounting">
+                            عرض المادة
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                </div></div>
+            </div>
+        </section>
+
+        <!-- صفحات إضافية -->
+        <section id="aboutPage" class="section" style="display: none;">
+            <div class="container">
+                <button class="back-button" id="backToHomeFromAbout">
+                    <i class="fas fa-arrow-right"></i>
+                    العودة للرئيسية
+                </button>
+
+                <div class="section-header">
+                    <h2>عن منصة ALGIAR</h2>
+                    <p>تعرف على رؤيتنا ورسالتنا وفريق العمل</p>
+                </div>
+
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div style="background: var(--white); padding: 40px; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                        <h3 style="margin-bottom: 20px; color: var(--primary);">من نحن؟</h3>
+                        <p style="color: var(--gray); line-height: 1.8; margin-bottom: 30px;">
+                            منصة ALGIAR هي منصة تعليمية رائدة في مجال المحاسبة، تأسست عام 2023 بهدف تقديم محتوى تعليمي عالي الجودة لطلبة الجامعات والمحترفين في مجال المحاسبة. نؤمن بأن التعليم الجيد يجب أن يكون متاحاً للجميع.
+                        </p>
+                        
+                        <h3 style="margin-bottom: 20px; color: var(--primary);">رؤيتنا</h3>
+                        <p style="color: var(--gray); line-height: 1.8; margin-bottom: 30px;">
+                            أن نكون المنصة التعليمية الرائدة في الشرق الأوسط في مجال المحاسبة والعلوم المالية، وأن نساهم في تطوير كفاءات المحاسبين وتأهيلهم لسوق العمل.
+                        </p>
+                        
+                        <h3 style="margin-bottom: 20px; color: var(--primary);">رسالتنا</h3>
+                        <p style="color: var(--gray); line-height: 1.8;">
+                            تقديم محتوى تعليمي متميز في مجال المحاسبة باستخدام أحدث التقنيات وأساليب التعليم الحديثة، وتمكين الطلاب والمحترفين من اكتساب المهارات والمعرفة اللازمة للنجاح في مجالهم.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactPage" class="section" style="display: none;">
+            <div class="container">
+                <button class="back-button" id="backToHomeFromContact">
+                    <i class="fas fa-arrow-right"></i>
+                    العودة للرئيسية
+                </button>
+
+                <div class="section-header">
+                    <h2>اتصل بنا</h2>
+                    <p>يسعدنا تواصلكم معنا في أي وقت</p>
+                </div>
+
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div style="background: var(--white); padding: 40px; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-bottom: 40px;">
+                            <div style="text-align: center; padding: 20px;">
+                                <div style="width: 60px; height: 60px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; color: var(--white); font-size: 24px;">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <h4 style="margin-bottom: 10px;">العنوان</h4>
+                                <p style="color: var(--gray);">دمنهور</p>
+                            </div>
+                            
+                            <div style="text-align: center; padding: 20px;">
+                                <div style="width: 60px; height: 60px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; color: var(--white); font-size: 24px;">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <h4 style="margin-bottom: 10px;">الهاتف</h4>
+                                <p style="color: var(--gray);">+966 500 000 000</p>
+                            </div>
+                            
+                            <div style="text-align: center; padding: 20px;">
+                                <div style="width: 60px; height: 60px; background: var(--gradient-primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; color: var(--white); font-size: 24px;">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h4 style="margin-bottom: 10px;">البريد الإلكتروني</h4>
+                                <p style="color: var(--gray);">info@algiar.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- واجهات المواد الفردية -->
+    <div id="subjectPagesContainer"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-info">
+                    <div class="footer-logo">ALGIAR</div>
+                    <p>منصة تعليمية متخصصة في تدريس المحاسبة لطلبة الجامعات والمحترفين. نقدم محتوى تعليمي عالي الجودة بأسلوب عصري وتفاعلي.</p>
+                    <div class="social-links">
+                        <a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>المواد</h3>
+                    <ul class="footer-links">
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-subject="financial-accounting">المحاسبة المالية</a></li>
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-subject="managerial-accounting">المحاسبة الإدارية</a></li>
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-subject="auditing">تدقيق الحسابات</a></li>
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-subject="taxation">الضرائب</a></li>
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-subject="cost-accounting">محاسبة التكاليف</a></li>
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-subject="accounting-systems">نظم المعلومات المحاسبية</a></li>
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-subject="international-accounting">المحاسبة الدولية</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-page="home">الرئيسية</a></li>
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-page="subjects">المواد الدراسية</a></li>
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-page="about">عن المنصة</a></li>
+                        <li><a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" data-page="contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>تواصل معنا</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> دمنهور، مصر</li>
+                        <li><i class="fas fa-phone"></i> +966 500 000 000</li>
+                        <li><i class="fas fa-envelope"></i> info@algiar.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">© 2024 منصة ALGIAR التعليمية. جميع الحقوق محفوظة.</div>
+                <div>
+                    <a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" style="color: rgba(255, 255, 255, 0.5); margin-left: 20px;">سياسة الخصوصية</a>
+                    <a href="file:///C:/Users/PC/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/A30D2901B35B59FFA50D281E817F829CCD840944/transfers/2026-14/32%20(2).html#" style="color: rgba(255, 255, 255, 0.5);">شروط الاستخدام</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal لتأكيد مشاهدة الفيديو -->
+    <div class="modal" id="completionModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">تأكيد مشاهدة الفيديو</h3>
+                <button class="modal-close" id="modalCloseBtn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="modal-message" id="modalMessage">
+                    هل أكملت مشاهدة هذا الفيديو؟<br>
+                    <small>سيتم إضافة الفيديو إلى قائمة الفيديوهات المكتملة وزيادة نسبة تقدمك.</small>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn btn-primary" id="cancelCompletion">لاحقاً</button>
+                    <button class="btn btn-primary" id="confirmCompletion">نعم، أكملت المشاهدة</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ========== البيانات الكاملة للمنصة ==========
+        const subjectsData = {
+            'financial-accounting': {
+                id: 'financial-accounting',
+                title: 'المحاسبة المالية',
+                icon: 'fas fa-balance-scale',
+                description: 'تعلم أساسيات القوائم المالية والميزانيات وقوائم الدخل. فهم كيفية تتبع الشركات لأدائها المالي.',
+                color: '#2563eb',
+                gradient: 'var(--gradient-primary)',
+                videos: 4,
+                hours: 8,
+                students: 1250,
+                progress: 0,
+                completedVideos: 0,
+                videosList: [
+                    { id: 1, title: 'مقدمة في المحاسبة المالية', description: 'تعريف بالمحاسبة المالية وأهميتها في عالم الأعمال الحديث.', duration: '24:30', youtubeId: 'ELdHx0N1PDo', youtubeUrl: 'https://www.youtube.com/watch?v=ELdHx0N1PDo', thumbnail: 'https://img.youtube.com/vi/ELdHx0N1PDo/hqdefault.jpg', completed: false },
+                    { id: 2, title: 'فهم الميزانيات العمومية', description: 'شرح مفصل للميزانية العمومية ومكوناتها الأساسية.', duration: '32:15', youtubeId: '5wYHFTsVZvE', youtubeUrl: 'https://www.youtube.com/watch?v=5wYHFTsVZvE', thumbnail: 'https://img.youtube.com/vi/5wYHFTsVZvE/hqdefault.jpg', completed: false },
+                    { id: 3, title: 'قوائم الدخل المُفسّرة', description: 'كيفية إعداد وتحليل قوائم الدخل.', duration: '28:45', youtubeId: 'Zw5I2vKXZ_k', youtubeUrl: 'https://www.youtube.com/watch?v=Zw5I2vKXZ_k', thumbnail: 'https://img.youtube.com/vi/Zw5I2vKXZ_k/hqdefault.jpg', completed: false },
+                    { id: 4, title: 'قوائم التدفقات النقدية', description: 'فهم وإعداد قوائم التدفقات النقدية.', duration: '36:20', youtubeId: 'CvNlfVH_pro', youtubeUrl: 'https://www.youtube.com/watch?v=CvNlfVH_pro', thumbnail: 'https://img.youtube.com/vi/CvNlfVH_pro/hqdefault.jpg', completed: false }
+                ]
+            },
+            'managerial-accounting': {
+                id: 'managerial-accounting', title: 'المحاسبة الإدارية', icon: 'fas fa-chart-line', description: 'استكشف تحليل التكاليف والموازنة وعمليات صنع القرار.', color: '#0ea5e9', gradient: 'var(--gradient-primary)', videos: 4, hours: 8, students: 980, progress: 0, completedVideos: 0,
+                videosList: [
+                    { id: 1, title: 'تحليل التكلفة-الحجم-الربح', description: 'أساسيات تحليل العلاقة بين التكلفة والحجم والربح.', duration: '28:30', youtubeId: '2zTRFvMoi_0', youtubeUrl: 'https://www.youtube.com/watch?v=2zTRFvMoi_0', thumbnail: 'https://img.youtube.com/vi/2zTRFvMoi_0/hqdefault.jpg', completed: false },
+                    { id: 2, title: 'الموازنة والتخطيط', description: 'كيفية إعداد الموازنات والتنبؤ المالي.', duration: '35:15', youtubeId: 'lkCQv3lSxQk', youtubeUrl: 'https://www.youtube.com/watch?v=lkCQv3lSxQk', thumbnail: 'https://img.youtube.com/vi/lkCQv3lSxQk/hqdefault.jpg', completed: false },
+                    { id: 3, title: 'تحليل الانحرافات', description: 'فهم وتحليل الانحرافات بين الأداء الفعلي والمخطط.', duration: '31:45', youtubeId: 'fMIfBU_g3-M', youtubeUrl: 'https://www.youtube.com/watch?v=fMIfBU_g3-M', thumbnail: 'https://img.youtube.com/vi/fMIfBU_g3-M/hqdefault.jpg', completed: false },
+                    { id: 4, title: 'محاسبة الأنشطة', description: 'نظام محاسبة التكاليف على أساس الأنشطة.', duration: '29:20', youtubeId: 'N1IvlYOOWd4', youtubeUrl: 'https://www.youtube.com/watch?v=N1IvlYOOWd4', thumbnail: 'https://img.youtube.com/vi/N1IvlYOOWd4/hqdefault.jpg', completed: false }
+                ]
+            },
+            'auditing': {
+                id: 'auditing', title: 'تدقيق الحسابات', icon: 'fas fa-search-dollar', description: 'فهم مبادئ وممارسات فحص السجلات المالية.', color: '#8b5cf6', gradient: 'var(--gradient-accent)', videos: 4, hours: 8, students: 750, progress: 0, completedVideos: 0,
+                videosList: [
+                    { id: 1, title: 'معايير وإجراءات التدقيق', description: 'المعايير المهنية والإجراءات الأساسية للتدقيق.', duration: '32:30', youtubeId: 'OxJtjyE_S1A', youtubeUrl: 'https://www.youtube.com/watch?v=OxJtjyE_S1A', thumbnail: 'https://img.youtube.com/vi/OxJtjyE_S1A/hqdefault.jpg', completed: false },
+                    { id: 2, title: 'التدقيق الداخلي مقابل الخارجي', description: 'الفروق بين التدقيق الداخلي والخارجي.', duration: '28:15', youtubeId: 'UqTkThbkfYw', youtubeUrl: 'https://www.youtube.com/watch?v=UqTkThbkfYw', thumbnail: 'https://img.youtube.com/vi/UqTkThbkfYw/hqdefault.jpg', completed: false },
+                    { id: 3, title: 'تقييم المخاطر في التدقيق', description: 'كيفية تقييم المخاطر في عملية التدقيق.', duration: '34:45', youtubeId: 'zT9w3lOZMJg', youtubeUrl: 'https://www.youtube.com/watch?v=zT9w3lOZMJg', thumbnail: 'https://img.youtube.com/vi/zT9w3lOZMJg/hqdefault.jpg', completed: false },
+                    { id: 4, title: 'أدلة وتوثيق التدقيق', description: 'أنواع أدلة التدقيق وأساليب التوثيق.', duration: '30:20', youtubeId: 'Aj7MiUyjdRo', youtubeUrl: 'https://www.youtube.com/watch?v=Aj7MiUyjdRo', thumbnail: 'https://img.youtube.com/vi/Aj7MiUyjdRo/hqdefault.jpg', completed: false }
+                ]
+            },
+            'taxation': {
+                id: 'taxation', title: 'الضرائب', icon: 'fas fa-file-invoice-dollar', description: 'تعرف على قوانين الضرائب واستراتيجيات التخطيط.', color: '#10b981', gradient: 'var(--gradient-success)', videos: 4, hours: 8, students: 890, progress: 0, completedVideos: 0,
+                videosList: [
+                    { id: 1, title: 'أساسيات ضريبة الدخل', description: 'المفاهيم الأساسية في ضريبة الدخل.', duration: '29:30', youtubeId: '0d3-5KtkO-U', youtubeUrl: 'https://www.youtube.com/watch?v=0d3-5KtkO-U', thumbnail: 'https://img.youtube.com/vi/0d3-5KtkO-U/hqdefault.jpg', completed: false },
+                    { id: 2, title: 'الضرائب على الشركات', description: 'نظام الضرائب المفروضة على الشركات.', duration: '33:15', youtubeId: 'eev1l7qUavo', youtubeUrl: 'https://www.youtube.com/watch?v=eev1l7qUavo', thumbnail: 'https://img.youtube.com/vi/eev1l7qUavo/hqdefault.jpg', completed: false },
+                    { id: 3, title: 'استراتيجيات التخطيط الضريبي', description: 'استراتيجيات قانونية للتخطيط الضريبي.', duration: '31:45', youtubeId: 'W4oM_o1vXzI', youtubeUrl: 'https://www.youtube.com/watch?v=W4oM_o1vXzI', thumbnail: 'https://img.youtube.com/vi/W4oM_o1vXzI/hqdefault.jpg', completed: false },
+                    { id: 4, title: 'الضرائب الدولية', description: 'مقدمة في الضرائب الدولية.', duration: '27:20', youtubeId: 'UabZqUvGvTk', youtubeUrl: 'https://www.youtube.com/watch?v=UabZqUvGvTk', thumbnail: 'https://img.youtube.com/vi/UabZqUvGvTk/hqdefault.jpg', completed: false }
+                ]
+            },
+            'cost-accounting': {
+                id: 'cost-accounting', title: 'محاسبة التكاليف', icon: 'fas fa-calculator', description: 'تعمق في الأساليب الخاصة بتسجيل وتحليل التكاليف.', color: '#f59e0b', gradient: 'var(--gradient-warning)', videos: 4, hours: 8, students: 620, progress: 0, completedVideos: 0,
+                videosList: [
+                    { id: 1, title: 'تكاليف أوامر العمل', description: 'نظام محاسبة تكاليف أوامر العمل.', duration: '31:30', youtubeId: '7NBl7U0c0G0', youtubeUrl: 'https://www.youtube.com/watch?v=7NBl7U0c0G0', thumbnail: 'https://img.youtube.com/vi/7NBl7U0c0G0/hqdefault.jpg', completed: false },
+                    { id: 2, title: 'أنظمة تكاليف المراحل', description: 'محاسبة التكاليف في الصناعات الإنتاجية.', duration: '36:15', youtubeId: '4U60K5lC5AI', youtubeUrl: 'https://www.youtube.com/watch?v=4U60K5lC5AI', thumbnail: 'https://img.youtube.com/vi/4U60K5lC5AI/hqdefault.jpg', completed: false },
+                    { id: 3, title: 'التكاليف المعيارية', description: 'نظام التكاليف المعيارية والمقارنة مع التكاليف الفعلية.', duration: '29:45', youtubeId: 'o0aCy8pJEjI', youtubeUrl: 'https://www.youtube.com/watch?v=o0aCy8pJEjI', thumbnail: 'https://img.youtube.com/vi/o0aCy8pJEjI/hqdefault.jpg', completed: false },
+                    { id: 4, title: 'أساليب توزيع التكاليف', description: 'طرق توزيع التكاليف غير المباشرة.', duration: '34:20', youtubeId: 'R43wwB_NzYk', youtubeUrl: 'https://www.youtube.com/watch?v=R43wwB_NzYk', thumbnail: 'https://img.youtube.com/vi/R43wwB_NzYk/hqdefault.jpg', completed: false }
+                ]
+            },
+            'accounting-systems': {
+                id: 'accounting-systems', title: 'نظم المعلومات المحاسبية', icon: 'fas fa-database', description: 'استكشف كيفية استخدام التكنولوجيا لجمع وتخزين البيانات المالية.', color: '#ef4444', gradient: 'var(--gradient-danger)', videos: 4, hours: 8, students: 540, progress: 0, completedVideos: 0,
+                videosList: [
+                    { id: 1, title: 'أساسيات نظم المعلومات المحاسبية', description: 'مقدمة لأنظمة المعلومات المحاسبية.', duration: '28:30', youtubeId: 'gZQJe8u4XRA', youtubeUrl: 'https://www.youtube.com/watch?v=gZQJe8u4XRA', thumbnail: 'https://img.youtube.com/vi/gZQJe8u4XRA/hqdefault.jpg', completed: false },
+                    { id: 2, title: 'دورات معالجة البيانات', description: 'دورة معالجة البيانات في النظم المحاسبية.', duration: '32:15', youtubeId: 'qH2Ks8Ayv2g', youtubeUrl: 'https://www.youtube.com/watch?v=qH2Ks8Ayv2g', thumbnail: 'https://img.youtube.com/vi/qH2Ks8Ayv2g/hqdefault.jpg', completed: false },
+                    { id: 3, title: 'الضوابط الداخلية في النظم', description: 'الضوابط الداخلية في النظم المحاسبية الآلية.', duration: '35:45', youtubeId: 'ze7vQxPK1t4', youtubeUrl: 'https://www.youtube.com/watch?v=ze7vQxPK1t4', thumbnail: 'https://img.youtube.com/vi/ze7vQxPK1t4/hqdefault.jpg', completed: false },
+                    { id: 4, title: 'أنظمة تخطيط الموارد', description: 'دور أنظمة ERP في المحاسبة.', duration: '30:20', youtubeId: '_61x4p4J8p4', youtubeUrl: 'https://www.youtube.com/watch?v=_61x4p4J8p4', thumbnail: 'https://img.youtube.com/vi/_61x4p4J8p4/hqdefault.jpg', completed: false }
+                ]
+            },
+            'international-accounting': {
+                id: 'international-accounting', title: 'المحاسبة الدولية', icon: 'fas fa-globe', description: 'دراسة المعايير الدولية لإعداد التقارير المالية (IFRS).', color: '#ec4899', gradient: 'var(--gradient-pink)', videos: 4, hours: 8, students: 480, progress: 0, completedVideos: 0,
+                videosList: [
+                    { id: 1, title: 'مقدمة في المعايير الدولية', description: 'نظرة عامة على المعايير الدولية لإعداد التقارير المالية.', duration: '30:15', youtubeId: 'gIAI_8KkY2M', youtubeUrl: 'https://www.youtube.com/watch?v=gIAI_8KkY2M', thumbnail: 'https://img.youtube.com/vi/gIAI_8KkY2M/hqdefault.jpg', completed: false },
+                    { id: 2, title: 'معيار العرض والإفصاح', description: 'متطلبات العرض والإفصاح في القوائم المالية.', duration: '34:20', youtubeId: 'B_mhN3f6l9c', youtubeUrl: 'https://www.youtube.com/watch?v=B_mhN3f6l9c', thumbnail: 'https://img.youtube.com/vi/B_mhN3f6l9c/hqdefault.jpg', completed: false },
+                    { id: 3, title: 'معالجة المعاملات الأجنبية', description: 'كيفية معالجة المعاملات بعملات أجنبية.', duration: '28:45', youtubeId: 'Ws5Tg40Z5H4', youtubeUrl: 'https://www.youtube.com/watch?v=Ws5Tg40Z5H4', thumbnail: 'https://img.youtube.com/vi/Ws5Tg40Z5H4/hqdefault.jpg', completed: false },
+                    { id: 4, title: 'دمج القوائم المالية الدولية', description: 'إعداد القوائم المالية الموحدة.', duration: '32:30', youtubeId: 'Y9J6wKQx6n0', youtubeUrl: 'https://www.youtube.com/watch?v=Y9J6wKQx6n0', thumbnail: 'https://img.youtube.com/vi/Y9J6wKQx6n0/hqdefault.jpg', completed: false }
+                ]
+            }
+        };
+
+        // تحميل التقدم من localStorage
+        function loadProgress() {
+            const saved = localStorage.getItem('algiar_progress');
+            if (saved) {
+                const progress = JSON.parse(saved);
+                Object.keys(subjectsData).forEach(subjectId => {
+                    if (progress[subjectId]) {
+                        subjectsData[subjectId].completedVideos = progress[subjectId];
+                        subjectsData[subjectId].videosList.forEach(video => {
+                            video.completed = false;
+                        });
+                        for (let i = 0; i < progress[subjectId]; i++) {
+                            if (subjectsData[subjectId].videosList[i]) {
+                                subjectsData[subjectId].videosList[i].completed = true;
+                            }
+                        }
+                    }
+                });
+            }
+        }
+
+        function saveProgress() {
+            const progress = {};
+            Object.keys(subjectsData).forEach(subjectId => {
+                progress[subjectId] = subjectsData[subjectId].completedVideos;
+            });
+            localStorage.setItem('algiar_progress', JSON.stringify(progress));
+        }
+
+        function updateOverallProgress() {
+            const totalVideos = Object.values(subjectsData).reduce((sum, s) => sum + s.videos, 0);
+            const completedVideos = Object.values(subjectsData).reduce((sum, s) => sum + s.completedVideos, 0);
+            const overallProgress = totalVideos > 0 ? Math.round((completedVideos / totalVideos) * 100) : 0;
+            
+            const progressBar = document.getElementById('overallProgressBar');
+            const progressValue = document.getElementById('overallProgressValue');
+            const completedElement = document.getElementById('completedVideos');
+            const totalElement = document.getElementById('totalVideos');
+            const heroCompleted = document.getElementById('completedVideosHero');
+            const heroProgressFill = document.getElementById('heroProgressFill');
+            const heroProgressValue = document.getElementById('heroProgressValue');
+            
+            if (progressBar) progressBar.style.width = `${overallProgress}%`;
+            if (progressValue) progressValue.textContent = `${overallProgress}%`;
+            if (completedElement) completedElement.textContent = completedVideos;
+            if (totalElement) totalElement.textContent = totalVideos;
+            if (heroCompleted) heroCompleted.textContent = completedVideos;
+            if (heroProgressFill) heroProgressFill.style.width = `${overallProgress}%`;
+            if (heroProgressValue) heroProgressValue.textContent = `${overallProgress}%`;
+            
+            Object.values(subjectsData).forEach(subject => {
+                subject.progress = subject.videos > 0 ? Math.round((subject.completedVideos / subject.videos) * 100) : 0;
+            });
+            
+            renderSubjectsGrid();
+        }
+
+        function renderSubjectsGrid() {
+            const container = document.getElementById('subjectsGrid');
+            if (!container) return;
+            container.innerHTML = '';
+            
+            Object.values(subjectsData).forEach(subject => {
+                const card = document.createElement('div');
+                card.className = 'subject-card';
+                card.setAttribute('data-subject', subject.id);
+                card.innerHTML = `
+                    <div class="subject-header">
+                        <div class="subject-icon" style="background: linear-gradient(135deg, ${subject.color}20, ${subject.color}10); color: ${subject.color}">
+                            <i class="${subject.icon}"></i>
+                        </div>
+                        <div>
+                            <h3 class="subject-title">${subject.title}</h3>
+                            <div class="subject-count">${subject.videos} فيديوهات • ${subject.hours} ساعة</div>
+                        </div>
+                    </div>
+                    <div class="subject-body">
+                        <p class="subject-description">${subject.description}</p>
+                        <div class="progress-container">
+                            <div class="progress-info">
+                                <span class="progress-label">التقدم</span>
+                                <span class="progress-value">${subject.progress}%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: ${subject.progress}%; background: ${subject.gradient};"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subject-footer">
+                        <div style="display: flex; align-items: center; gap: 8px; color: var(--gray); font-size: 14px;">
+                            <i class="fas fa-play-circle"></i>
+                            ${subject.completedVideos}/${subject.videos} مكتمل
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-subject="${subject.id}">
+                            عرض المادة
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+            
+            document.querySelectorAll('[data-subject]').forEach(card => {
+                card.addEventListener('click', function(e) {
+                    if (!e.target.closest('button')) {
+                        const subjectId = this.getAttribute('data-subject');
+                        openSubjectPage(subjectId);
+                    }
+                });
+            });
+            document.querySelectorAll('[data-subject] button').forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const subjectId = this.getAttribute('data-subject');
+                    openSubjectPage(subjectId);
+                });
+            });
+        }
+
+        function createSubjectPage(subjectId) {
+            const subject = subjectsData[subjectId];
+            if (!subject) return;
+            
+            const container = document.getElementById('subjectPagesContainer');
+            container.innerHTML = '';
+            
+            const page = document.createElement('div');
+            page.className = 'subject-page active';
+            page.id = `${subjectId}-page`;
+            page.innerHTML = `
+                <div class="subject-page-header" style="background: ${subject.gradient};">
+                    <div class="container">
+                        <button class="back-button" id="backToSubjects">
+                            <i class="fas fa-arrow-right"></i>
+                            العودة للمواد
+                        </button>
+                        <div class="page-header-content">
+                            <div class="subject-page-info">
+                                <h1 class="subject-page-title">${subject.title}</h1>
+                                <p class="subject-page-description">${subject.description}</p>
+                            </div>
+                            <div class="subject-page-stats">
+                                <div class="page-stat-item">
+                                    <span class="page-stat-number">${subject.videos}</span>
+                                    <span class="page-stat-label">فيديو</span>
+                                </div>
+                                <div class="page-stat-item">
+                                    <span class="page-stat-number">${subject.hours}</span>
+                                    <span class="page-stat-label">ساعة</span>
+                                </div>
+                                <div class="page-stat-item">
+                                    <span class="page-stat-number">${subject.completedVideos}/${subject.videos}</span>
+                                    <span class="page-stat-label">مكتمل</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <section class="videos-section">
+                        <h2 style="font-size: 32px; margin-bottom: 20px;">الفيديوهات التعليمية</h2>
+                        <div class="videos-grid" id="videosGrid-${subjectId}"></div>
+                    </section>
+                </div>
+            `;
+            container.appendChild(page);
+            renderSubjectVideos(subjectId);
+            document.getElementById('backToSubjects').addEventListener('click', () => showPage('subjects'));
+            document.getElementById('mainContent').style.display = 'none';
+        }
+
+        function renderSubjectVideos(subjectId) {
+            const subject = subjectsData[subjectId];
+            const container = document.getElementById(`videosGrid-${subjectId}`);
+            if (!container) return;
+            container.innerHTML = '';
+            
+            subject.videosList.forEach(video => {
+                const card = document.createElement('div');
+                card.className = 'video-card';
+                card.innerHTML = `
+                    <div class="video-thumbnail">
+                        <img src="${video.thumbnail}" alt="${video.title}" loading="lazy">
+                        <div class="video-play-btn" data-url="${video.youtubeUrl}">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        ${video.completed ? '<div style="position: absolute; top: 10px; left: 10px; background: var(--gradient-success); color: white; padding: 4px 12px; border-radius: var(--radius-full); font-size: 12px;">مكتمل ✓</div>' : ''}
+                    </div>
+                    <div class="video-content">
+                        <div class="video-header">
+                            <div class="video-number">${video.id}</div>
+                            <div class="video-duration">${video.duration}</div>
+                        </div>
+                        <h3 class="video-title">${video.title}</h3>
+                        <p class="video-description">${video.description}</p>
+                        <a href="${video.youtubeUrl}" target="_blank" class="youtube-button">
+                            <i class="fab fa-youtube"></i>
+                            مشاهدة على YouTube
+                        </a>
+                        ${!video.completed ? `
+                        <button class="mark-completed-btn" data-video-id="${video.id}" data-subject-id="${subjectId}" data-title="${video.title}">
+                            <i class="fas fa-check-circle"></i>
+                            تمت المشاهدة
+                        </button>
+                        ` : `
+                        <button class="mark-completed-btn completed" style="background: var(--gradient-success);">
+                            <i class="fas fa-check-circle"></i>
+                            مكتمل ✓
+                        </button>
+                        `}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+            
+            document.querySelectorAll('.video-play-btn').forEach(btn => {
+                btn.addEventListener('click', () => window.open(btn.getAttribute('data-url'), '_blank'));
+            });
+            
+            document.querySelectorAll('.mark-completed-btn').forEach(btn => {
+                if (btn.getAttribute('data-video-id')) {
+                    btn.addEventListener('click', function() {
+                        const videoId = parseInt(this.getAttribute('data-video-id'));
+                        const subjectId = this.getAttribute('data-subject-id');
+                        const videoTitle = this.getAttribute('data-title');
+                        showCompletionModal(videoId, subjectId, videoTitle);
+                    });
+                }
+            });
+        }
+
+        let currentVideoToComplete = null;
+        
+        function showCompletionModal(videoId, subjectId, videoTitle) {
+            const modal = document.getElementById('completionModal');
+            const messageElement = document.getElementById('modalMessage');
+            currentVideoToComplete = { videoId, subjectId, videoTitle };
+            messageElement.innerHTML = `
+                هل أكملت مشاهدة الفيديو:<br>
+                <strong>"${videoTitle}"</strong>؟<br>
+                <small>سيتم إضافة الفيديو إلى قائمة الفيديوهات المكتملة وزيادة نسبة تقدمك.</small>
+            `;
+            modal.classList.add('active');
+        }
+
+        function markVideoAsCompleted(videoId, subjectId) {
+            const subject = subjectsData[subjectId];
+            const video = subject.videosList.find(v => v.id === videoId);
+            if (video && !video.completed) {
+                video.completed = true;
+                subject.completedVideos++;
+                saveProgress();
+                updateOverallProgress();
+                if (currentSubject === subjectId) renderSubjectVideos(subjectId);
+                showCompletionMessage(subject.title, video.title);
+            }
+        }
+
+        function showCompletionMessage(subjectTitle, videoTitle) {
+            const message = document.createElement('div');
+            message.innerHTML = `<div style="position: fixed; top: 100px; left: 20px; background: var(--gradient-success); color: white; padding: 15px 25px; border-radius: var(--radius-md); box-shadow: var(--shadow-lg); z-index: 2000; animation: slideInLeft 0.5s ease;">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <i class="fas fa-check-circle" style="font-size: 24px;"></i>
+                    <div><div style="font-weight: 600;">تهانينا! لقد أكملت الفيديو</div><div style="font-size: 14px;">${videoTitle}</div></div>
+                </div>
+            </div>`;
+            document.body.appendChild(message);
+            setTimeout(() => {
+                message.style.animation = 'slideOutLeft 0.5s ease forwards';
+                setTimeout(() => message.remove(), 500);
+            }, 5000);
+        }
+
+        function setupCompletionModal() {
+            const modal = document.getElementById('completionModal');
+            document.getElementById('modalCloseBtn').addEventListener('click', () => modal.classList.remove('active'));
+            document.getElementById('cancelCompletion').addEventListener('click', () => modal.classList.remove('active'));
+            document.getElementById('confirmCompletion').addEventListener('click', () => {
+                if (currentVideoToComplete) {
+                    markVideoAsCompleted(currentVideoToComplete.videoId, currentVideoToComplete.subjectId);
+                    modal.classList.remove('active');
+                    currentVideoToComplete = null;
+                }
+            });
+            modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('active'); });
+        }
+
+        let currentPage = 'home';
+        let currentSubject = null;
+
+        function showPage(pageName) {
+            document.getElementById('subjectPagesContainer').innerHTML = '';
+            document.getElementById('mainContent').style.display = 'block';
+            document.querySelectorAll('#mainContent > section').forEach(section => section.style.display = 'none');
+            if (pageName === 'home') document.getElementById('homePage').style.display = 'block';
+            else if (pageName === 'subjects') document.getElementById('subjectsPage').style.display = 'block';
+            else if (pageName === 'about') document.getElementById('aboutPage').style.display = 'block';
+            else if (pageName === 'contact') document.getElementById('contactPage').style.display = 'block';
+            currentPage = pageName;
+            updateActiveNav();
+            window.scrollTo({ top: 0 });
+        }
+
+        function openSubjectPage(subjectId) {
+            createSubjectPage(subjectId);
+            currentSubject = subjectId;
+            currentPage = 'subject';
+            window.scrollTo({ top: 0 });
+        }
+
+        function updateActiveNav() {
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('data-page') === currentPage) link.classList.add('active');
+            });
+        }
+
+        function setupNavigation() {
+            document.querySelectorAll('[data-page]').forEach(link => {
+                link.addEventListener('click', (e) => { e.preventDefault(); showPage(link.getAttribute('data-page')); });
+            });
+            document.querySelectorAll('.footer-links [data-subject]').forEach(link => {
+                link.addEventListener('click', (e) => { e.preventDefault(); openSubjectPage(link.getAttribute('data-subject')); });
+            });
+            document.getElementById('mainLogo').addEventListener('click', () => showPage('home'));
+            document.getElementById('startLearningBtn').addEventListener('click', () => showPage('subjects'));
+            document.getElementById('browseSubjectsBtn').addEventListener('click', () => showPage('subjects'));
+            document.getElementById('backToHomeFromSubjects').addEventListener('click', () => showPage('home'));
+            document.getElementById('backToHomeFromAbout').addEventListener('click', () => showPage('home'));
+            document.getElementById('backToHomeFromContact').addEventListener('click', () => showPage('home'));
+        }
+
+        function setupMobileMenu() {
+            const menuBtn = document.getElementById('mobileMenuBtn');
+            const navMenu = document.querySelector('.nav-menu');
+            menuBtn.addEventListener('click', () => {
+                if (navMenu.style.display === 'flex') navMenu.style.display = 'none';
+                else { navMenu.style.display = 'flex'; navMenu.style.flexDirection = 'column'; navMenu.style.position = 'absolute'; navMenu.style.top = '100%'; navMenu.style.right = '0'; navMenu.style.width = '100%'; navMenu.style.background = 'var(--white)'; navMenu.style.padding = '20px'; navMenu.style.boxShadow = 'var(--shadow-lg)'; navMenu.style.gap = '20px'; }
+            });
+            window.addEventListener('resize', () => { if (window.innerWidth > 768) navMenu.style.display = ''; });
+        }
+
+        function setupScrollEffects() {
+            window.addEventListener('scroll', () => document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50));
+        }
+
+        function createFloatingElements() {
+            const hero = document.querySelector('.hero-section');
+            if (hero) for (let i = 0; i < 5; i++) {
+                const el = document.createElement('div');
+                el.className = 'floating-element';
+                const size = Math.random() * 200 + 100;
+                el.style.cssText = `width:${size}px;height:${size}px;top:${Math.random()*100}%;right:${Math.random()*100}%;animation-duration:${Math.random()*10+15}s;animation-delay:${Math.random()*5}s`;
+                hero.appendChild(el);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadProgress();
+            updateOverallProgress();
+            renderSubjectsGrid();
+            setupNavigation();
+            setupMobileMenu();
+            setupScrollEffects();
+            setupCompletionModal();
+            createFloatingElements();
+        });
+    </script>
+
+</body>
+</html>
